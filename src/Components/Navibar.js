@@ -23,7 +23,7 @@ const Styles = styled.div`
 const Navibar = () => (
   <Styles>
     <Navbar collapseOnSelect bg="dark" variant="light" expand="lg">
-      <Navbar.Brand href="/">REFRESH 2021</Navbar.Brand>
+      <Navbar.Brand href="/">NI</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" variant="light"><FontAwesomeIcon icon={faBars} style={{ color: '#bbb' }} /></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
@@ -45,7 +45,7 @@ const Navibar = () => (
           </Nav.Item> */}
           <Nav.Item>
             <LinkContainer to="/submissions">
-              <Nav.Link>Submissions</Nav.Link>
+              <Nav.Link>Publications</Nav.Link>
             </LinkContainer>
           </Nav.Item>
 
@@ -57,13 +57,13 @@ const Navibar = () => (
 
           <Nav.Item>
             <LinkContainer to="/committees">
-              <Nav.Link>Committees</Nav.Link>
+              <Nav.Link>Experience</Nav.Link>
             </LinkContainer>
           </Nav.Item>
 
           <Nav.Item>
             <LinkContainer to="/program">
-              <Nav.Link>Program</Nav.Link>
+              <Nav.Link>My Favorite Comics</Nav.Link>
             </LinkContainer>
           </Nav.Item>
 

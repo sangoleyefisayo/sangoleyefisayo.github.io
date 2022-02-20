@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
 import Navibar  from './Components/Navibar'
-import Jumbotron from './Components/Jumbotron'
+import Jumbo1 from './Components/Jumbotron'
+import Jumbo2 from './Components/Jumbotron2'
+import Jumbo3 from './Components/Jumbotron3'
+import Jumbo4 from './Components/Jumbotron4'
 import Footer from './Components/Footer'
 import {
   HashRouter as Router,
@@ -12,10 +15,10 @@ import Home from './Views/Home.js'
 // import Contact from './Views/Contact'
 // import Scope from './Views/Scope'
 // import Topics from './Views/Topics';
-import Program from './Views/Program';
+import Comics from './Views/Comics';
 // import Dates from './Views/Dates';
-import Committee from './Views/Committee';
-import Submissions from './Views/Submissions';
+import Experience from './Views/Experience';
+import Publications from './Views/Publications';
 
 
 
@@ -25,43 +28,35 @@ function App() {
       <div className="content-wrap">
       <Router>
         <Navibar />
-        <Jumbotron />
         <div className="p-3">
           <Switch>
 
             <Route exact path='/' >
+            <Jumbo1 />
               <Home />
             </Route>
 
-            {/* <Route path='/scope' >
-              <Scope />
-            </Route> */}
+            
 
 
             <Route path='/submissions' >
-              <Submissions />
+            <Jumbo2 />
+              <Publications />
             </Route>
 
-            {/* <Route path='/topics' >
-              <Topics />
-            </Route> */}
-
-            {/* <Route path='/dates' >
-              <Dates />
-            </Route> */}
+            
 
             <Route path='/committees' >
-              <Committee />
+            <Jumbo3 />
+              <Experience />
             </Route>
 
             <Route path='/program' >
-              <Program />
+            <Jumbo4 />
+              <Comics />
             </Route>
 
-            {/* <Route path='/contact' >
-              <Contact/>
-            </Route> */}
-
+            
           </Switch>
         </div>
         
