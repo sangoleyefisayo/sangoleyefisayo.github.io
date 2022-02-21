@@ -7,7 +7,6 @@ const Styles = styled.div`
     padding: 0;
     margin-top: 1rem;
     color: #000;
-    // background-color: #bbb;
     bottom: 0;
     left: 0;
     right: 0;
@@ -16,13 +15,20 @@ const Styles = styled.div`
     text-align: center;
     
   }
+ 
+`;
+const Em = styled.em`
+    font-size: 0.85em;
+    font-style: italic;
+ 
 `;
 
 const Footer = () => (
     <div>
         <Styles>
             <p>
-                REFRESH2021
+            <Em>"I may not have gone where I intended to go, 
+            but I think I have ended up where I needed to be."</Em> - Douglas Adams
             </p>
         </Styles>
 

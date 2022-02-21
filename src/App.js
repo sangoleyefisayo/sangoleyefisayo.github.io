@@ -28,11 +28,11 @@ function App() {
       <div className="content-wrap">
       <Router>
         <Navibar />
-        <div className="p-3">
+        <div className="p-0">
           <Switch>
 
             <Route exact path='/' >
-            <Jumbo1 />
+              <Jumbo1 />
               <Home />
             </Route>
 
@@ -40,19 +40,19 @@ function App() {
 
 
             <Route path='/submissions' >
-            <Jumbo2 />
+              <Jumbo2 />
               <Publications />
             </Route>
 
             
 
             <Route path='/committees' >
-            <Jumbo3 />
+              <Jumbo3 />
               <Experience />
             </Route>
 
             <Route path='/program' >
-            <Jumbo4 />
+              <Jumbo4 />
               <Comics />
             </Route>
 
