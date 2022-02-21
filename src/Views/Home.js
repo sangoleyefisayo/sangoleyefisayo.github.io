@@ -4,7 +4,9 @@ import '../Academicons/css/academicons.css';
 // import logo from '../Assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitterSquare,faFacebookSquare,faRedditSquare,faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import myImage from '../Assets/me.jpg';
+// import myImage from '../Assets/me.jpg';
+import myImage from '../Assets/portrait.jpg';
+
 const A = styled.a`
   font-size: 2vw;
 `;
