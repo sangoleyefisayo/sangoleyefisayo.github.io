@@ -50,7 +50,7 @@ const Grid = styled.div`
 .photo {
   flex: 1;
   width: 100%;
-  padding-left: 40px;
+  padding-left: 130px;
   padding-right: 40px;
   text-align: justify;
 
@@ -72,7 +72,7 @@ const Grid = styled.div`
 }
 
 .photo {
-  width: 40%;
+  width: 45%;
   float: left;
   padding-top: 30px;
   padding-left: 18%;
@@ -81,7 +81,7 @@ const Grid = styled.div`
   // position: absolute;
 }
 .description {
-  width: 60%;
+  width: 55%;
   float: right;
   padding-top: 30px;
   padding-left: 5px;
@@ -121,7 +121,7 @@ function Home() {
       <A href="mailto:nafis@unm.edu"> <FontAwesomeIcon icon={faEnvelope}/></A>
       
       {/* <i class="ai ai-google-scholar-square ai-3x"></i> */}
-      <Title>Introduction</Title>
+      {/* <Title>Introduction</Title> */}
       <p>I am a Ph.D student in the Department of Electrical and Computer Engineering at University of New Mexico, USA, since January 2020, 
         as a member of the PROTON lab with Prof. E.E.Tsiropoulou as an advisor. My research falls under the broad category of Artificial Intelligence 
         and Socio-technological systems. My research interests include Game Theory, Reinforcement Learning, Distributed decision making, Artificial Enabled Solutions, 

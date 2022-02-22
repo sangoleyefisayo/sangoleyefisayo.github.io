@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import instructions from '../Assets/DCOSS_2021_User_Guide.pdf'
-
 const Header = styled.div`
 * {
     text-align: center;
@@ -17,6 +15,11 @@ const Subtitle = styled.h4`
     
   
 `;
+const A = styled.a`
+max-width: 100%;
+
+
+`;
 const Grid = styled.div`
 * {
 
@@ -25,18 +28,24 @@ const Grid = styled.div`
     // padding-left: 40px;
     // padding-right: 40px;
     padding-bottom: 15px;
-    text-align: justify;
+    text-align: center;
 
 }
 a {
     padding: 0 !important;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 .main {
     float: left;
     width: 100%;
     padding-left: 40px;
     padding-right: 40px;
-    text-align: justify;
+    text-align: center;
     // text-justify: inter-word;
   
   }
@@ -52,6 +61,11 @@ a {
         padding-bottom: 20px;
         // text-align: justify;
     }
+    img {
+      max-width: 100%;
+      height: auto;
+      width: auto\9; /* ie8 */
+  }
     .main {
         float: left;
         width: 100%;
@@ -72,12 +86,12 @@ function Comics() {
 <div className="main">
     <Subtitle>Some of my favorite comics :)</Subtitle>
 
-    <a target="_blank" rel="noopener noreferrer"href="https://abstrusegoose.com/249">
-      <img src="https://abstrusegoose.com/strips/ars_longa_vita_brevis.png"/></a><br/>
-    <a target="_blank" rel="noopener noreferrer"href="https://phdcomics.com/comics.php?f=2037&gt%3BVacations&lt%3B/a&gt%3B&amp%3Bquot%3B">
-      <img src="https://phdcomics.com/comics/archive/phd112219s.gif"/></a><br/>
-    <a target="_blank" rel="noopener noreferrer"href="https://xkcd.com/303">
-      <img src="https://imgs.xkcd.com/comics/compiling.png"/></a><br/>
+    <A target="_blank" rel="noopener noreferrer"href="https://abstrusegoose.com/249">
+      <img src="https://abstrusegoose.com/strips/ars_longa_vita_brevis.png"/></A><br/>
+    <A target="_blank" rel="noopener noreferrer"href="https://phdcomics.com/comics.php?f=2037&gt%3BVacations&lt%3B/a&gt%3B&amp%3Bquot%3B">
+      <img src="https://phdcomics.com/comics/archive/phd112219s.gif"/></A><br/>
+    <A target="_blank" rel="noopener noreferrer"href="https://xkcd.com/303">
+      <img src="https://imgs.xkcd.com/comics/compiling.png"/></A><br/>
 
 </div>
 </Grid>

@@ -45,7 +45,7 @@ const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <Title> Experience </Title>
+        <Title> Experience and Awards</Title>
         {/* <Subtitle>2nd International Workshop on Real-life modeling in 5G networks and beyond </Subtitle>  */}
       </Container>
     </Jumbo>
