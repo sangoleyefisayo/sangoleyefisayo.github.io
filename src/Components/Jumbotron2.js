@@ -20,13 +20,13 @@ const Styles = styled.div`
     background: url(${boatImage}) no-repeat fixed bottom;
     background-size: cover;
     color: #efefef;
-    height: 400px;
+    height: 300px;
     position: relative;
     z-index: -2;
   }
   .overlay {
     background-color: #000;
-    opacity: 0.4;
+    opacity: 0.2;
     position: absolute;
     top: 0;
     left: 0;
@@ -36,6 +36,28 @@ const Styles = styled.div`
   }
 
   
+  @media screen and (min-width: 768px) {
+
+    .jumbo {
+      background: url(${boatImage}) no-repeat fixed bottom;
+      background-size: cover;
+      color: #efefef;
+      height: 400px;
+      position: relative;
+      z-index: -2;
+    }
+    .overlay {
+      background-color: #000;
+      opacity: 0.2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+    
+    }
 
   
 `;
