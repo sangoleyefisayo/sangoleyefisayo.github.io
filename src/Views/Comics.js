@@ -31,6 +31,9 @@ const Grid = styled.div`
     text-align: center;
   
   }
+  .cartoon {
+    width: 100%;
+  }
 
 @media screen and (min-width: 768px) {
 
@@ -48,6 +51,9 @@ const Grid = styled.div`
         text-align: center;
       
       }
+      .cartoon {
+        width: auto;
+      }
 } 
 `;
 function Comics() {
@@ -59,11 +65,11 @@ function Comics() {
     <Subtitle>Some of my favorite comics :)</Subtitle>
 <Body>
     <a target="_blank" rel="noopener noreferrer"href="https://abstrusegoose.com/249">
-      <img src="https://abstrusegoose.com/strips/ars_longa_vita_brevis.png"/></a><br/>
+      <img src="https://abstrusegoose.com/strips/ars_longa_vita_brevis.png" class="cartoon"/></a><br/>
     <a target="_blank" rel="noopener noreferrer"href="https://phdcomics.com/comics.php?f=2037&gt%3BVacations&lt%3B/a&gt%3B&amp%3Bquot%3B">
-      <img src="https://phdcomics.com/comics/archive/phd112219s.gif"/></a><br/>
+      <img src="https://phdcomics.com/comics/archive/phd112219s.gif" class="cartoon"/></a><br/>
     <a target="_blank" rel="noopener noreferrer"href="https://xkcd.com/303">
-      <img src="https://imgs.xkcd.com/comics/compiling.png"/></a><br/>
+      <img src="https://imgs.xkcd.com/comics/compiling.png" class="cartoon"/></a><br/>
       </Body>
 </div>
 </Grid>

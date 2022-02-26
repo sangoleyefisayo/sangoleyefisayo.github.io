@@ -5,11 +5,19 @@ import boatImage from '../Assets/Experi1.jpg';
 import "@fontsource/merriweather";
 
 const Title = styled.h1`
-font-size: 4em;
-text-align: center;
-color: white;
-font-family: merriweather;
-    `;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  font-family: merriweather;
+  padding: 1.5em;
+
+@media screen and (min-width: 768px) {
+  padding: 2em;
+  font-size: 4em;
+}
+
+`;
+
 
 const Subtitle = styled.p`
 font-size: 2em;
@@ -70,7 +78,7 @@ const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <Title><br/><br/>Work and Education</Title>
+        <Title> Work and Education </Title>
       </Container>
     </Jumbo>
   </Styles>

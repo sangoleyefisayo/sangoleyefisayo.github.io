@@ -78,7 +78,7 @@ const Grid = styled.div`
   float: right;
   padding-top: 30px;
   padding-left: 5px;
-  padding-right: 18%;
+  padding-right: 22%;
   text-align: justify;
   font-family: "Roboto";
   font-size: 20px;
