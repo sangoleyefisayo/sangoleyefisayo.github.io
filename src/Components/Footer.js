@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
+import "@fontsource/roboto";
 
 
 const Styles = styled.div`
@@ -13,6 +14,7 @@ const Styles = styled.div`
     width: 100%;
     font-size: 0.65em;
     text-align: center;
+    font-family: roboto;
     
   }
  
@@ -20,6 +22,7 @@ const Styles = styled.div`
 const Em = styled.em`
     font-size: 0.85em;
     font-style: italic;
+    font-family: roboto;
  
 `;
 

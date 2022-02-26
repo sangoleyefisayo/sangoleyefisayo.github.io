@@ -1,28 +1,37 @@
 import React from 'react';
 import styled from 'styled-components';
+import "@fontsource/roboto";
+import '../App.css';
 
 
 const Title = styled.h1`
     color: #2291e6;
     text-align: center;
+    font-family: "Roboto";
     
   
 `;
 const A = styled.a`
     font-weight: bold;
     color: #2291e6;
+    font-family: "Roboto";
 `;
 const Subtitle = styled.h3`
+    font-family: "Roboto";
     color: #2291e6;
     text-align: center;
     
   
+`;
+const Year = styled.p`
+    float: right;
 `;
 
 const Grid = styled.div`
 * {
   box-sizing: border-box;
   padding-bottom: 15px;
+  font-family: "Roboto";
 }
 .main {
   width: 100%;
@@ -38,8 +47,8 @@ const Grid = styled.div`
   width: 100%;
   float: left;
   padding-top: 30px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 400px;
+  padding-right: 400px;
   text-align: justify;
 }
 
@@ -49,58 +58,65 @@ const Grid = styled.div`
 `;
 
 
-function Publications() {
+function Experience() {
     return (
-        <div >
-    <Grid>     
-    <div className="main">       
-    <Subtitle>Journal Paper</Subtitle>
-    <ol>
-{/* <A href={cv} download="Nafis_Irtija_CV"><span class="ai ai-cv ai-small ai-fiwd"></span></A> */}
-      
-    <li> <b>Prospect-theoretic Demand Response Management in Smart Grid Systems.</b><br />
-	F. Sangoleye, N. Irtija, E. E. Tsiropoulou, and S. Papavassiliou, 
-    "Prospect-theoretic Demand Response Management in Smart Grid Systems" in IEEE Systems Journal, 2021. (Under Review).</li>
-	
-    <li> <b>Energy Efficient Edge Computing Enabled by Satisfaction Games and Approximate Computing</b><br />  
-	Irtija, N., Anagnostopoulos, I., Zervakis, G., Tsiropoulou, E., Amrouch, H., Henkel, J., 
-    "Energy Efficient Edge Computing Enabled by Satisfaction Games and Approximate Computing" in IEEE Transactions on Green 
-    Communications and Networking, 2021. <A href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9585566">[PDF]</A>
-	</li>
-    <li> <b>Truthful Decentralized Blockchain Oracles.</b><br />   
-	Cai, Y., Irtija, N., Tsiropoulou, E. E., & Veneris, A. (2021). Truthful Decentralized Blockchain Oracles. 
-    International Journal of Network Management, e2179. <A href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/nem.2179">[PDF]</A>
-	</li>
-    <li> <b>Smart Energy Harvesting for Internet of Things Networks.</b><br />  
- 	Sangoleye, F., Irtija, N., & Tsiropoulou, E. E. (2021). Smart Energy Harvesting for Internet of Things Networks. 
-     Sensors, 21(8), 2755. <A href="https://www.mdpi.com/1424-8220/21/8/2755/pdf">[PDF]</A>
-     </li>
-     <li> <b>Contract-Theoretic Demand Response Management in Smart Grid Systems.</b><br />    
-	Irtija, N., Sangoleye, F., & Tsiropoulou, E. E. (2020). Contract-Theoretic Demand Response Management in Smart Grid Systems. 
-    IEEE Access, 8, 184976-184987. <A href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9220119">[PDF]</A>
-    </li>
-    </ol>	
+        <div>
+            <Grid>     
+            <div className="main">    
+            <Title>Education</Title>
+                <ul>
 
-    <Subtitle>Conference Paper</Subtitle>
-    <ol>
-    <li> <b>Reconfigurable Intelligent Surfaces enabling Positioning, Navigation, and Timing Services.</b><br />   
-	Sahabul, M., Irtija, N., & Tsiropoulou, E. E. (2022). Reconfigurable Intelligent Surfaces enabling Positioning, Navigation, 
-    and Timing Services. In ICC 2022-IEEE International Conference on Communications. IEEE. (Under Review).
-    </li>
-    <li> <b>Data Acquisition in Social Internet of Things based on Contract Theory.</b><br />
-	Sangoleye, F., Irtija, N., & Tsiropoulou, E. E. (2021, June). Data Acquisition in Social Internet of Things based on Contract Theory.
-     In ICC 2021-IEEE International Conference on Communications (pp. 1-6). IEEE. <A href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9500254">[PDF]</A>
-    </li>
-    <li> <b>Fatigue Detection Using Facial Landmarks.</b><br />  
-	IRTIJA, N., SAMI, M., & AHAD, M. A. R. (2018). Fatigue Detection Using Facial Landmarks. In International Symposium on 
-    Affective Science and Engineering ISASE2018 (pp. 1-6). 
-    Japan Society of Kansei Engineering. <A href="https://www.jstage.jst.go.jp/article/isase/ISASE2018/0/ISASE2018_1_16/_pdf">[PDF]</A>
-    </li>
-    </ol>
-    </div>
-    </Grid>
+                <li><b>Ph.D. in Computer Engineering <Year>2020 - Present</Year></b><br/>
+                University of New Mexico<br/>
+                Advisor: Dr. Eirini Eleni Tsiropoulou</li>
+                <li><b>Master of Science in Computer Engineering <Year>2020 - 2021</Year></b><br/>
+                University of New Mexico<br/>
+                CGPA: 4.22/4.00<br/>
+                Advisor: Dr. Eirini Eleni Tsiropoulou</li>
+                <li><b>Master of Science in Electrical and Electronic Engineering <Year>2016 - 2018</Year></b><br/>
+                University of Dhaka Dhaka, Bangladesh<br/>
+                CGPA: 3.61/4.00</li>
+                <li><b>Bachelor of Science in Electrical and Electronic Engineering <Year>2012 - 2016</Year></b><br/>
+                University of Dhaka Dhaka, Bangladesh<br/>
+                CGPA: 3.80/4.00</li>
+
+                </ul>   
+            <Title>Experience</Title>
+                <ul>
+
+                
+                <li> <b>Research Assistant <Year>2020 - Present</Year></b><br />
+                Department of Electrical and Computer Engineering, University of New Mexico<br />In colaboration with Sandia National Laboratories in the NSF-funded project of Quantum Sensing
+            (QSense)
+                </li>
+                
+                <li> <b>Teaching Assistant</b><br />  
+                Department of Electrical and Computer Engineering, University of New Mexico <br/><br/>
+                    <ul>
+                        <li><i>ECE131 Programming Fundamentals</i> </li>
+                        <li><i>ECE530 Cloud Computing</i> </li>
+                        
+                    </ul>
+                </li>
+                <li> <b>Lecturer <Year>2018 - 2019</Year></b><br />   
+                Department of Electrical and Electronic Engineering<br/>
+                Bangladesh University of Business and Technology (BUBT)
+
+                </li>
+                
+                </ul>	
+
+            <Title>Awards</Title>
+                <ul>
+                <li> <b>ITPEC Examination Gold Award <Year>2018</Year></b><br />   
+                Fundamental Information Technology Engineer Examination (ITEE-FE) for achieving the highest score among all ITPEC countries.
+                </li>
+                
+                </ul>
+                </div>
+            </Grid>
         </div>
     );
 }
 
-export default Publications;
+export default Experience;

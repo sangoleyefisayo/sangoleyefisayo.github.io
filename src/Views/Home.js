@@ -2,45 +2,38 @@ import React from 'react';
 import styled from 'styled-components';
 import '../Academicons/css/academicons.css';
 import '../App.css';
-// import logo from '../Assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-// import myImage from '../Assets/me.jpg';
 import myImage from '../Assets/portrait.jpg';
 import cv from '../Assets/CV.pdf'
+import "@fontsource/roboto";
 
 
 const A = styled.a`
   font-size: 40px;
+  color: #282a38;
+  &:hover {
+    color: #696e94;
+    text-decoration: none;
+  }
 `;
 const Title = styled.h4`
     color: #2291e6;
     `;
-const Subtitle = styled.h5`
+const Subtitle = styled.h2`
     // color: #2291e6;
     margin-bottom: -10px;
   
 `;
 
-// const Ul = styled.ul`
-//   list-style-type: none;
-  
-//   li {
-//   &:before {
-//     content: "~";
-//   }
-// }
-//   //list-style-position: inside;
-// `;
-// const Icon = styled.span`
-//   margin-bottom: 0px;
-// `;
 
 const Red = styled.span`
 color: #ff0000;
 font-weight: bold;
 `;
+
+
 const Grid = styled.div`
 * {
   box-sizing: border-box;
@@ -61,6 +54,7 @@ const Grid = styled.div`
   padding-left: 40px;
   padding-right: 40px;
   text-align: justify;
+  font-family: "Roboto";
 
 }
 
@@ -78,16 +72,16 @@ const Grid = styled.div`
   padding-left: 18%;
   padding-right: 2%;
   text-align: justify;
-  // position: absolute;
-}
+  }
 .description {
   width: 55%;
   float: right;
   padding-top: 30px;
   padding-left: 5px;
-  padding-right: 100px;
+  padding-right: 18%;
   text-align: justify;
-  // position: relative;
+  font-family: "Roboto";
+  font-size: 20px;
 }
 
 }
@@ -96,12 +90,7 @@ const Grid = styled.div`
 `;
 function Home() {
   return (
-    <div >
-     
-      {/* <A href="https://twitter.com/"> <FontAwesomeIcon icon={faTwitterSquare}/></A>
-      <A href="https://facebook.com/"> <FontAwesomeIcon icon={faFacebookSquare}/></A>
-      <A href="https://reddit.com/"> <FontAwesomeIcon icon={faRedditSquare}/></A>
-      <A href="https://linkedin.com/"> <FontAwesomeIcon icon={faLinkedin}/></A> */}
+    <div>
       <Grid>
       
   
@@ -115,22 +104,16 @@ function Home() {
       Research Assistant<br/>
       Department of Electrical and Computer Engineering<br/>
       University of New Mexico<br/>
-      <A href="https://scholar.google.com/"><span class="ai ai-google-scholar-square ai-small ai-fw"></span></A>
+      <A href="https://scholar.google.com/citations?user=zCQqr3MAAAAJ"><span class="ai ai-google-scholar-square ai-small ai-fw"></span></A>
       <A href="https://www.linkedin.com/in/nafisirtija/"> <FontAwesomeIcon icon={faLinkedin}/></A>
       <A href={cv} download="Nafis_Irtija_CV"><span class="ai ai-cv ai-small ai-fiwd"></span></A>
       <A href="mailto:nafis@unm.edu"> <FontAwesomeIcon icon={faEnvelope}/></A>
       
-      {/* <i class="ai ai-google-scholar-square ai-3x"></i> */}
-      {/* <Title>Introduction</Title> */}
-      <p>I am a Ph.D student in the Department of Electrical and Computer Engineering at University of New Mexico, USA, since January 2020, 
-        as a member of the PROTON lab with Prof. E.E.Tsiropoulou as an advisor. My research falls under the broad category of Artificial Intelligence 
-        and Socio-technological systems. My research interests include Game Theory, Reinforcement Learning, Distributed decision making, Artificial Enabled Solutions, 
-        Labor economics and Network economics based personalized pricing and fairness. Before joining UNM, I received my Master’s Degree from the Department of Electrical 
-        and Electronic Engineering, University of Dhaka, Bangladesh, in February 2019 and my Bachelor’s Degree from the same department in May 2017.
-        
-      </p>
-     
-      
+      <p>I am a final year PhD student in Computer Engineering at the University of New Mexico, expecting to graduate in Spring 2023. My research involves Embedded System Engineering, 
+        System on Chip (SOC) Engineering, Register-Transfer Level Design, and Hardware-Software Co-design. Currently, 
+        I am collaborating with the Sandia National Laboratory, USA, as a research assistant and planning to find a research position
+         in the Hardware industry to make an impact on the field.</p>
+
       </div>
             </Grid>
     </div>

@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import "@fontsource/roboto";
+import '../App.css';
 
 const Body = styled.div`
     text-align: center;
@@ -17,8 +19,6 @@ const Grid = styled.div`
 
     box-sizing: border-box;
     word-wrap:break-word;
-    // padding-left: 40px;
-    // padding-right: 40px;
     padding-bottom: 15px;
     text-align: center;
 
@@ -29,7 +29,6 @@ const Grid = styled.div`
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
-    // text-justify: inter-word;
   
   }
 
@@ -39,10 +38,7 @@ const Grid = styled.div`
         
         box-sizing: border-box;
         word-wrap:break-word;
-        // padding-left: 120px;
-        // padding-right: 120px;
         padding-bottom: 20px;
-        // text-align: justify;
     }
     .main {
         float: left;

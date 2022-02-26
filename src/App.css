@@ -48,14 +48,6 @@
   }
 }
 
-/* .ai-lg {
-  font-size: 1.33333em;
-  line-height: 0.75em;
-  vertical-align: -.0667em;
-}
-.ai-xs {
-  font-size: .75em;
-} */
 .ai-small {
   font-size: .65em;
   vertical-align: .52em;
@@ -65,3 +57,4 @@
   text-align: right;
   width: 1.5em;
 }
+

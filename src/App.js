@@ -12,11 +12,7 @@ import {
   Route
 } from 'react-router-dom'
 import Home from './Views/Home.js'
-// import Contact from './Views/Contact'
-// import Scope from './Views/Scope'
-// import Topics from './Views/Topics';
 import Comics from './Views/Comics';
-// import Dates from './Views/Dates';
 import Experience from './Views/Experience';
 import Publications from './Views/Publications';
 
@@ -39,19 +35,19 @@ function App() {
             
 
 
-            <Route path='/submissions' >
+            <Route path='/publications' >
               <Jumbo2 />
               <Publications />
             </Route>
 
             
 
-            <Route path='/committees' >
+            <Route path='/experience' >
               <Jumbo3 />
               <Experience />
             </Route>
 
-            <Route path='/program' >
+            <Route path='/interests' >
               <Jumbo4 />
               <Comics />
             </Route>

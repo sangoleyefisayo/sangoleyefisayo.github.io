@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://nafisirtija.github.io/",
   "dependencies": {
+    "@fontsource/merriweather": "^4.5.5",
+    "@fontsource/roboto": "^4.5.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",

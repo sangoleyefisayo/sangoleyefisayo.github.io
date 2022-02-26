@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -22,7 +21,7 @@ const Styles = styled.div`
 
 const Navibar = () => (
   <Styles>
-    <Navbar collapseOnSelect bg="dark" variant="light" expand="lg">
+    <Navbar collapseOnSelect bg="dark" variant="light" expand="lg" fixed="top" >
       <Navbar.Brand href="/">Nafis Irtija</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" variant="light"><FontAwesomeIcon icon={faBars} style={{ color: '#bbb' }} /></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
@@ -33,45 +32,27 @@ const Navibar = () => (
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          {/* <Nav.Item>
-            <Nav.Link>
-              <Link to="/scope">Scope</Link>
-            </Nav.Link>
-          </Nav.Item>
+          
           <Nav.Item>
-            <Nav.Link>
-              <Link to="/topics">Topics</Link>
-            </Nav.Link>
-          </Nav.Item> */}
-          <Nav.Item>
-            <LinkContainer to="/submissions">
+            <LinkContainer to="/publications">
               <Nav.Link>Publications</Nav.Link>
             </LinkContainer>
           </Nav.Item>
 
-          {/* <Nav.Item>
-            <Nav.Link>
-              <Link to="/dates">Important Dates</Link>
-            </Nav.Link>
-          </Nav.Item> */}
+
 
           <Nav.Item>
-            <LinkContainer to="/committees">
-              <Nav.Link>Experience</Nav.Link>
+            <LinkContainer to="/experience">
+              <Nav.Link>Work and Education</Nav.Link>
             </LinkContainer>
           </Nav.Item>
 
           <Nav.Item>
-            <LinkContainer to="/program">
+            <LinkContainer to="/interests">
               <Nav.Link>Interests</Nav.Link>
             </LinkContainer>
           </Nav.Item>
 
-          {/* <Nav.Item>
-            <Nav.Link>
-              <Link to="/contact">Contact</Link>
-            </Nav.Link>
-          </Nav.Item> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

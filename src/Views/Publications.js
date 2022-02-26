@@ -1,20 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
+import "@fontsource/roboto";
+import '../App.css';
 
 
 const Title = styled.h1`
     color: #2291e6;
     text-align: center;
+    font-family: "Roboto";
     
   
 `;
 const A = styled.a`
     font-weight: bold;
     color: #2291e6;
+    font-family: "Roboto";
 `;
 const Subtitle = styled.h3`
     color: #2291e6;
     text-align: center;
+    font-family: "Roboto";
     
   
 `;
@@ -29,6 +34,7 @@ const Grid = styled.div`
   padding-left: 25px;
   padding-right: 50px;
   text-align: justify;
+  font-family: "Roboto";
 
 }
 
@@ -38,9 +44,10 @@ const Grid = styled.div`
   width: 100%;
   float: left;
   padding-top: 30px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 400px;
+  padding-right: 400px;
   text-align: justify;
+  font-family: "Roboto";
 }
 
 }
@@ -54,9 +61,9 @@ function Publications() {
         <div >
     <Grid>     
     <div className="main">       
-    <Subtitle>Journal Paper</Subtitle>
+    <Title>Journal Paper</Title>
     <ol>
-{/* <A href={cv} download="Nafis_Irtija_CV"><span class="ai ai-cv ai-small ai-fiwd"></span></A> */}
+
       
     <li> <b>Prospect-theoretic Demand Response Management in Smart Grid Systems.</b><br />
 	F. Sangoleye, N. Irtija, E. E. Tsiropoulou, and S. Papavassiliou, 
@@ -81,7 +88,7 @@ function Publications() {
     </li>
     </ol>	
 
-    <Subtitle>Conference Paper</Subtitle>
+    <Title>Conference Paper</Title>
     <ol>
     <li> <b>Reconfigurable Intelligent Surfaces enabling Positioning, Navigation, and Timing Services.</b><br />   
 	Sahabul, M., Irtija, N., & Tsiropoulou, E. E. (2022). Reconfigurable Intelligent Surfaces enabling Positioning, Navigation, 
