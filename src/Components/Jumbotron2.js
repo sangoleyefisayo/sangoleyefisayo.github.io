@@ -9,7 +9,7 @@ const Title = styled.h1`
   text-align: center;
   color: white;
   font-family: merriweather;
-  padding: 1.5em;
+  padding-top: 1.5em;
 
 @media screen and (min-width: 768px) {
   padding: 2em;
@@ -77,7 +77,7 @@ const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <Title> Publications </Title>
+        <Title>Publications</Title>
       </Container>
     </Jumbo>
   </Styles>
