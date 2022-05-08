@@ -12,7 +12,7 @@ import {
   Route
 } from 'react-router-dom'
 import Home from './Views/Home.js'
-import Comics from './Views/Comics';
+// import Comics from './Views/Comics';
 import Experience from './Views/Experience';
 import Publications from './Views/Publications';
 
@@ -47,10 +47,10 @@ function App() {
               <Experience />
             </Route>
 
-            <Route path='/interests' >
+            {/* <Route path='/interests' >
               <Jumbo4 />
               <Comics />
-            </Route>
+            </Route> */}
 
             
           </Switch>

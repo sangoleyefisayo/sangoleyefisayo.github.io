@@ -68,20 +68,18 @@ function Experience() {
 
                 <li><b>Ph.D. in Computer Engineering <Year>2020 - Present</Year></b><br/>
                 University of New Mexico<br/>
+                CGPA: 4.27/4.00<br/>
                 Advisor: Dr. Eirini Eleni Tsiropoulou</li>
                 <li><b>Master of Science in Computer Engineering <Year>2020 - 2021</Year></b><br/>
                 University of New Mexico<br/>
-                CGPA: 4.22/4.00<br/>
+                CGPA: 4.27/4.00<br/>
                 Advisor: Dr. Eirini Eleni Tsiropoulou</li>
-                <li><b>Master of Science in Electrical and Electronic Engineering <Year>2016 - 2018</Year></b><br/>
-                University of Dhaka Dhaka, Bangladesh<br/>
-                CGPA: 3.61/4.00</li>
-                <li><b>Bachelor of Science in Electrical and Electronic Engineering <Year>2012 - 2016</Year></b><br/>
-                University of Dhaka Dhaka, Bangladesh<br/>
-                CGPA: 3.80/4.00</li>
+                <li><b>Bachelor of Science in Electrical and Electronics Engineering <Year>2011 - 2016</Year></b><br/>
+                University of Lagos, Nigeria<br/>
+                CGPA: 4.05/5.00</li>
 
                 </ul>   
-            <Title>Experience</Title>
+            {/* <Title>Experience</Title>
                 <ul>
 
                 
@@ -104,15 +102,15 @@ function Experience() {
 
                 </li>
                 
-                </ul>	
+                </ul>	 */}
 
-            <Title>Awards</Title>
+            {/* <Title>Awards</Title>
                 <ul>
                 <li> <b>ITPEC Examination Gold Award <Year>2018</Year></b><br />   
                 Fundamental Information Technology Engineer Examination (ITEE-FE) for achieving the highest score among all ITPEC countries.
                 </li>
                 
-                </ul>
+                </ul> */}
                 </div>
             </Grid>
         </div>

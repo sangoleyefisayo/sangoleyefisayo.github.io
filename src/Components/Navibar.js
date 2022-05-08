@@ -47,11 +47,11 @@ const Navibar = () => (
             </LinkContainer>
           </Nav.Item>
 
-          <Nav.Item>
+          {/* <Nav.Item>
             <LinkContainer to="/interests">
               <Nav.Link>Interests</Nav.Link>
             </LinkContainer>
-          </Nav.Item>
+          </Nav.Item> */}
 
         </Nav>
       </Navbar.Collapse>

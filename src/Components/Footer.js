@@ -29,10 +29,10 @@ const Em = styled.em`
 const Footer = () => (
     <div>
         <Styles>
-            <p>
+            {/* <p>
             <Em>"I may not have gone where I intended to go, 
             but I think I have ended up where I needed to be."</Em> - Douglas Adams
-            </p>
+            </p> */}
         </Styles>
 
     </div>

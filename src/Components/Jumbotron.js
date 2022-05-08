@@ -79,7 +79,7 @@ const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container className="container">
-        <Title> Welcome To My Site! </Title>
+        <Title> About Me </Title>
       </Container>
     </Jumbo>
   </Styles>
