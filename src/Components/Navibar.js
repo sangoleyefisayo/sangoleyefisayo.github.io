@@ -22,7 +22,7 @@ const Styles = styled.div`
 const Navibar = () => (
   <Styles>
     <Navbar collapseOnSelect bg="dark" variant="light" expand="lg" fixed="top" >
-      <Navbar.Brand href="/">Nafis Irtija</Navbar.Brand>
+      <Navbar.Brand href="/">Fisayo Sangoleye</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" variant="light"><FontAwesomeIcon icon={faBars} style={{ color: '#bbb' }} /></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

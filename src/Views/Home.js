@@ -101,18 +101,16 @@ function Home() {
       <div className="description">
         
       <Subtitle>Fisayo Sangoleye</Subtitle>
-      Research Assistant<br/>
-      Department of Electrical and Computer Engineering<br/>
-      University of New Mexico<br/>
+      Cybersecurity Engineer - OT and Embedded Systems<br/>
+      GE Research <br/>
       <A href="https://scholar.google.com/citations?user=JXcHYQ0AAAAJ"><span class="ai ai-google-scholar-square ai-small ai-fw"></span></A>
       <A href="https://www.linkedin.com/in/fisayo-sangoleye/"> <FontAwesomeIcon icon={faLinkedin}/></A>
       <A href={cv} download="Fisayo_Resume"><span class="ai ai-cv ai-small ai-fiwd"></span></A>
       <A href="mailto:sangoleye.fm@gmail.com"> <FontAwesomeIcon icon={faEnvelope}/></A>
       
-      <p>I am a Ph.D student in the <a href="http://www.ece.unm.edu/">Department of Electrical and Computer Engineering</a> at The <a href="http://www.unm.edu/">University of New Mexico, USA</a>, a student member of IEEE, and a member of the PROTON lab, with <a href="http://ece-research.unm.edu/tsiropoulou/index.html">Prof. E.E.Tsiropoulou</a> as an advisor.</p>
+      <p>I am a Cybersecurity Engineer at GE Research. I graduated with a Ph.D from the <a href="http://www.ece.unm.edu/">Department of Electrical and Computer Engineering</a> at The <a href="http://www.unm.edu/">University of New Mexico, USA</a>, with <a href="http://ece-research.unm.edu/tsiropoulou/index.html">Prof. E.E.Tsiropoulou</a> as an advisor.</p>
         <p>I obtained my bachelor’s degree in Electrical and Electronics Engineering from the University of Lagos, Nigeria in 2016.</p>
-        <p>My major field of research is Computer Systems and Networks, with interests in resource allocation and optimization in heterogeneous wireless networks, Internet of Things, artificial intelligence, and demand response management, resilience and cybersecurity in smart grid networks using Game Theory, Optimization and Reinforcement Learning techniques.</p>
-        <p>I am also a student member of the Institute of Electrical and Electronics Engineers (IEEE), and an active member of the National Society of Black Engineers (NSBE).</p>
+        <p>My major field of research is Computer Systems and Networks, with interests in Resilience and Cybersecurity in OT (Operational Technology) and Embedded Systems.</p>
 
       </div>
             </Grid>
