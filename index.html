@@ -1,1 +1,113 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href=""/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Personal Homepage of Fisayo Sangoleye"/><link rel="manifest" href="/manifest.json"/><title>Fisayo Sangoleye</title><link href="/static/css/2.81ba483a.chunk.css" rel="stylesheet"><link href="/static/css/main.556d720d.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,a=r[0],p=r[1],f=r[2],c=0,s=[];c<a.length;c++)l=a[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(i&&i(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var p=t[a];0!==o[p]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var a=this.webpackJsonpMy_homepage=this.webpackJsonpMy_homepage||[],p=a.push.bind(a);a.push=r,a=a.slice();for(var f=0;f<a.length;f++)r(a[f]);var i=p;t()}([])</script><script src="/static/js/2.b6594e90.chunk.js"></script><script src="/static/js/main.fc9d895a.chunk.js"></script></body></html>
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fisayo Sangoleye</title>
+<meta name="description" content="Fisayo Sangoleye, PhD. Senior Application and Product Security Engineer at Bumble Inc.">
+<meta property="og:title" content="Fisayo Sangoleye">
+<meta property="og:description" content="Senior Application and Product Security Engineer. PhD, Computer Engineering.">
+<meta property="og:image" content="portrait.jpg">
+<style>
+:root{
+  --bg:#fafaf9; --surface:#ffffff; --text:#1c1917; --muted:#57534e; --line:#e7e5e4;
+  --accent:#4f46e5; --accent-soft:#eef2ff; color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0c0a09; --surface:#171412; --text:#f5f5f4; --muted:#a8a29e; --line:#292524;
+        --accent:#a5b4fc; --accent-soft:#1e1b3a; color-scheme:dark;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:17px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+a{color:inherit}
+main{max-width:760px;margin:0 auto;padding:clamp(40px,10vw,96px) 24px 64px}
+.hero{display:flex;gap:32px;align-items:center;flex-wrap:wrap}
+.hero img{width:148px;height:148px;border-radius:50%;object-fit:cover;object-position:50% 38%;
+  border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.12)}
+.eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 6px}
+h1{font-size:clamp(2rem,6vw,2.8rem);line-height:1.1;margin:0 0 8px;letter-spacing:-.02em}
+.role{margin:0;color:var(--muted);font-size:1.1rem}
+.links{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 0}
+.links a{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid var(--line);
+  background:var(--surface);border-radius:999px;text-decoration:none;font-size:.95rem;font-weight:500;
+  transition:border-color .15s,transform .15s}
+.links a:hover,.links a:focus-visible{border-color:var(--accent);transform:translateY(-1px)}
+.links a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.links svg{width:18px;height:18px;fill:currentColor}
+section{margin-top:56px}
+h2{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 18px;font-weight:600}
+p{margin:0 0 14px}
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.timeline li{position:relative;padding:0 0 22px 24px}
+.timeline li::before{content:"";position:absolute;left:-6px;top:9px;width:10px;height:10px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--accent)}
+.timeline li:first-child::before{background:var(--accent)}
+.timeline b{display:block}
+.timeline span{color:var(--muted);font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.tags li{background:var(--accent-soft);color:var(--accent);padding:4px 12px;border-radius:999px;font-size:.88rem;font-weight:500}
+footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+@media (max-width:520px){.hero{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <img src="portrait.jpg" alt="Portrait of Fisayo Sangoleye" width="148" height="148">
+    <div>
+      <p class="eyebrow">Product Security</p>
+      <h1>Fisayo Sangoleye, PhD</h1>
+      <p class="role">Senior Application &amp; Product Security Engineer at Bumble Inc.</p>
+    </div>
+  </header>
+
+  <nav class="links" aria-label="Profiles">
+    <a href="https://www.linkedin.com/in/fisayo-sangoleye/" rel="me noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+      LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=JXcHYQ0AAAAJ" rel="me noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+      Google Scholar</a>
+    <a href="Fisayo_Sangoleye_Resume.pdf" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zM8 13h8v1.5H8V13zm0 3h8v1.5H8V16z"/></svg>
+      Resume</a>
+    <a href="mailto:sangoleye.fm@gmail.com">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      Email</a>
+  </nav>
+
+  <section>
+    <h2>About</h2>
+    <p>I'm an Application and Product Security Engineer, equally comfortable reviewing code, modeling threats, and securing the systems that power modern products.</p>
+    <p>At Bumble, that means product security ownership across web, cloud, API, and mobile: from secure SDLC and CI/CD pipeline security to product risk management and GenAI security.</p>
+    <p>My research background: a PhD in Computer Engineering from the University of New Mexico, focused on the resilience and cybersecurity of networked and embedded systems.</p>
+    <p>I like security work that is technical, hands-on, and tied to real business risk.</p>
+  </section>
+
+  <section>
+    <h2>Where I've worked</h2>
+    <ul class="timeline">
+      <li><b>Bumble Inc.</b><span>Senior Application / Product Security Engineer Â· 2026 â€“ Present</span></li>
+      <li><b>GE Vernova</b><span>Lead Cybersecurity Engineer, Application &amp; Product Security Â· 2022 â€“ 2026</span></li>
+      <li><b>Sandia National Laboratories</b><span>Cybersecurity Researcher Â· 2021 â€“ 2023</span></li>
+      <li><b>University of New Mexico</b><span>PhD, Computer Engineering Â· 2020 â€“ 2023</span></li>
+      <li><b>TERAWORK</b><span>Application Security Engineer Â· 2017 â€“ 2019</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Focus areas</h2>
+    <ul class="tags">
+      <li>Threat modeling</li><li>Secure SDLC</li><li>DevSecOps</li><li>Mobile &amp; API security</li>
+      <li>Cloud security</li><li>Supply chain security</li><li>LLM &amp; agentic AI security</li>
+    </ul>
+  </section>
+
+  <footer>Find the full details on <a href="https://www.linkedin.com/in/fisayo-sangoleye/">LinkedIn</a>. Publications are on <a href="https://scholar.google.com/citations?user=JXcHYQ0AAAAJ">Google Scholar</a>.</footer>
+</main>
+</body>
+</html>
+
