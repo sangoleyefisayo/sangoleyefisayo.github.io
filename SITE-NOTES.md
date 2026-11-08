@@ -53,11 +53,9 @@ Last updated: 2026-11-08
   `github-recovery-codes.txt` was committed in 2021 (commit `5d2b700`) and sat in the public repo. It was
   removed on 2026-11-08 (commit `cba4204`) but still exists in old history. Those codes are **not yours**.
 - Never commit recovery codes, tokens or `.env` files. `.gitignore` blocks the common cases.
-- The old React site was removed from `main` on 2026-11-08. Old uncommitted edits (Home.js, CV.pdf) and a
-  bundle of all old branches were saved in `MyWebsite\backup-before-cleanup\` (safe to delete if not needed).
-- Branches `fix-teaching`, `read-more` (template leftovers) and `master` (your 2020-2022 Jekyll site) were
-  deleted. `master` is preserved in tag `archive/jekyll-site-2022`
-  (restore with `git branch master archive/jekyll-site-2022`).
+- The old React site was removed from `main` on 2026-11-08. The old branches (`fix-teaching`, `read-more`,
+  and `master` with your 2020-2022 Jekyll site) were deleted, and their backups were deleted too.
+  They are not recoverable.
 
 ## Accounts and domain
 - Personal GitHub: `sangoleyefisayo`. The username `fisayosangoleye` is your **Bumble work account**
