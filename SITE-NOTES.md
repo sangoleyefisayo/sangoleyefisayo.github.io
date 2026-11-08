@@ -6,7 +6,7 @@ Last updated: 2026-11-08
 - A single static page: `index.html` (+ `portrait.jpg`, `Fisayo_Sangoleye_Resume.pdf`) at the root of this repo\n  (`my_new_site/`, branch `main`). This is the source of truth; `gh-pages` holds the published copy.
 - No React, no Node, no build step. Edit the HTML, copy, push.
 - Live at https://sangoleyefisayo.github.io/ , served from the **`gh-pages` branch** of
-  `sangoleyefisayo/sangoleyefisayo.github.io` (default branch is `master`; `main` only holds old source).
+  `sangoleyefisayo/sangoleyefisayo.github.io` (default branch is `main`, which holds the site source).
 - Old React site: removed from `main` on 2026-11-08 (still in git history of `main` before commit "Clean up repo", and
   as the old build on `gh-pages` at commit `45e69db`). A full backup bundle of all branches is in\n  `MyWebsite\backup-before-cleanup\all-branches.bundle`.
 
