@@ -4,7 +4,7 @@ Last updated: 2026-11-08
 
 ## What the site is now
 - A single static page: `index.html` (+ `portrait.jpg`, `Fisayo_Sangoleye_Resume.pdf`) at the root of this
-  repo (`MyWebsite/my_new_site`, branch `main`). This is the source of truth.
+  repo (`C:\Users\Fisayo\Documents\GitHub\MyWebsite`, branch `main`). This is the source of truth.
 - No React, no Node, no build step. Edit the HTML, copy, push.
 - Live at https://sangoleyefisayo.github.io/ , served from the **`gh-pages` branch** of
   `sangoleyefisayo/sangoleyefisayo.github.io`. `gh-pages` holds the published copy of the three site files.
@@ -18,7 +18,7 @@ Last updated: 2026-11-08
 4. Deploy (fresh clone each time is simplest):
    ```powershell
    $git = "C:\Program Files\Git\cmd\git.exe"
-   $src = "C:\Users\Fisayo\Documents\GitHub\MyWebsite\my_new_site"
+   $src = "C:\Users\Fisayo\Documents\GitHub\MyWebsite"
    $d = "$env:TEMP\site-deploy"
    Remove-Item $d -Recurse -Force -ErrorAction SilentlyContinue
    & $git clone --branch gh-pages --single-branch https://github.com/sangoleyefisayo/sangoleyefisayo.github.io.git $d
@@ -34,7 +34,7 @@ Last updated: 2026-11-08
 5. Roll back: revert the last commit on `gh-pages`. The old React site is at `gh-pages` commit `45e69db`.
 
 ## Gotchas learned
-- **Auth:** Use HTTPS, not SSH (no SSH key on this PC). The first push needs a sign-in through Git Credential
+- **Auth:** Use HTTPS, not SSH (no SSH key on this PC; `origin` is set to the HTTPS URL). The first push needs a sign-in through Git Credential
   Manager and must be run in a **normal PowerShell window**, not Claude Code's shell, which cannot show the
   prompt. After that the login is cached. GitHub 2FA is on.
 - **Node is not installed**, so `yarn deploy` / `gh-pages` no longer apply. Use the git steps above.
